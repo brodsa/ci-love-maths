@@ -14,8 +14,12 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 })
 
+/**
+ * Here comes the docstring describing what the function does
+ */
 function runGame(){
-
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer(){
